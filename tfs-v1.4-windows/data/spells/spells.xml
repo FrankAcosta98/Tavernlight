@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
 	<!-- Attack Spells -->
+
+	<!-- new spell with custome parameters -->
+	<instant group="attack" spellid="62" name="frigo" words="frigo" level="1" mana="3" premium="10" range="1" needtarget="0" needweapon="0" cooldown="50" groupcooldown="4000" needlearn="0" script="attack/frigo.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
 	<instant group="attack" spellid="62" name="Annihilation" words="exori gran ico" level="110" mana="300" premium="1" range="1" needtarget="1" needweapon="1" cooldown="30000" groupcooldown="4000" needlearn="0" script="attack/annihilation.lua">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" />
