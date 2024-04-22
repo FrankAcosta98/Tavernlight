@@ -3,7 +3,11 @@
 	<!-- Attack Spells -->
 
 	<!-- new spell with custome parameters -->
-	<instant group="attack" spellid="62" name="frigo" words="frigo" level="1" mana="3" premium="10" range="1" needtarget="0" needweapon="0" cooldown="50" groupcooldown="4000" needlearn="0" script="attack/frigo.lua">
+	<instant group="attack" spellid="6262" name="frigo" words="frigo" level="1" mana="3" premium="10" range="1" needtarget="0" needweapon="0" cooldown="50" groupcooldown="4000" needlearn="0" script="attack/frigo.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
+	<instant group="attack" spellid="6263" name="Windows" words="vista" level="1" mana="3" premium="10" range="1" needtarget="0" needweapon="0" cooldown="30" groupcooldown="4000" needlearn="0" script="attack/vistae.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
